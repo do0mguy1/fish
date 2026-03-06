@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class pop : MonoBehaviour
 {
-    public GameObject bubbler;
-    public Rigidbody2D bubble;
+    public float destroybubble = 6.0f;
+    public float movespeed = 5.0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -13,14 +13,11 @@ public class pop : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-    public void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("point"))
+        transform.Translate(Vector3.up * movespeed * Time.deltaTime);
+        if (transform.position.y >= destroybubble)
         {
             Destroy(gameObject);
-            Debug.Log("pop");
+            
         }
     }
 }
