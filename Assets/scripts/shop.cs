@@ -4,6 +4,10 @@ using UnityEngine.UIElements;
 
 public class shop : MonoBehaviour
 {
+    public float spawnY = 4.36f; 
+    public Vector2 spawnRangeX = new Vector2(-8.34f, 8.34f); // X-axis spawn range
+    public GameObject food1;
+    public GameObject food2;
     public float cost3 = 2;
     public TMP_Text cost3txt;
     public float cost2 = 4;
@@ -32,7 +36,7 @@ public class shop : MonoBehaviour
         if(money >= 2)
         {
             money = money - 2;
-            Debug.Log("got food");
+            Spawnfood();
             moneytxt.text = "money: " + money;
             costtxt.text = "cost: " + cost;
             
@@ -62,6 +66,13 @@ public class shop : MonoBehaviour
     public void Sell()
     {
         money = money + 20;
+    }
+    void Spawnfood()
+    {
+        float randomX = Random.Range(spawnRangeX.x, spawnRangeX.y);
+        Vector2 spawnPosition = new Vector2(randomX, spawnY);
+        
+        Instantiate(food1, spawnPosition , food1.transform.rotation);
     }
 
 }

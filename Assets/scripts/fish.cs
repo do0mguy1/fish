@@ -2,7 +2,9 @@ using UnityEngine;
 
 public class fish : MonoBehaviour
 {
-    
+    public float timer2;
+    public float interval2 = 12f;
+    public float hugner = 100;
     private SpriteRenderer render;
     public float timer;
     public float interval = 1f;
@@ -19,6 +21,7 @@ public class fish : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
+        timer2 += Time.deltaTime;
         if (timer >= interval)
         {
             int randomNumber = Random.Range(0, 4);
@@ -49,6 +52,11 @@ public class fish : MonoBehaviour
                 playerrb.AddRelativeForce(Vector3.down * speed);
                 Debug.Log("s");
             }
+        }
+        if (timer2 >= interval2)
+        {
+            timer2 = 0f;
+            hugner = hugner - 5;
         }
     }
 }
