@@ -59,4 +59,11 @@ public class fish : MonoBehaviour
             hugner = hugner - 5;
         }
     }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.CompareTag("food"))
+        {
+            Destroy(collision.gameObject);
+        }
+    }
 }

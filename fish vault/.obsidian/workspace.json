@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "food.md",
+                "file": "buy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "food"
+              "title": "buy"
             }
           }
         ]
@@ -201,10 +201,10 @@
   },
   "active": "39d1e9b247d82aee",
   "lastOpenFiles": [
-    "buy.md",
     "shop.md",
     "macanics.md",
     "food.md",
+    "buy.md",
     "sell.md",
     "money.md",
     "feeding.md",
