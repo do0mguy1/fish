@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class fish : MonoBehaviour
 {
+    public bool havehugner = true;
     public float timer2;
     public float interval2 = 12f;
     public float hugner = 100;
@@ -53,10 +54,13 @@ public class fish : MonoBehaviour
                 Debug.Log("s");
             }
         }
-        if (timer2 >= interval2)
+        if(havehugner == true)
         {
-            timer2 = 0f;
-            hugner = hugner - 5;
+            if (timer2 >= interval2)
+            {
+                timer2 = 0f;
+                hugner = hugner - 5;
+            }
         }
     }
     void OnCollisionEnter2D(Collision2D collision)
@@ -64,6 +68,7 @@ public class fish : MonoBehaviour
         if(collision.gameObject.CompareTag("food"))
         {
             Destroy(collision.gameObject);
+            hugner = hugner + 20;
         }
     }
 }
