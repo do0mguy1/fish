@@ -4,6 +4,14 @@ using UnityEngine.UIElements;
 
 public class shop : MonoBehaviour
 {
+    public GameObject tank;
+    public int size = 0;
+    public int maxsize = 9;
+    public float camincrease = 0.2f;
+    public float camsize;
+    public float currsize = 1f;
+    public Camera cam;
+    public GameObject Tank1;
     public float spawnY = 4.36f; 
     public Vector2 spawnRangeX = new Vector2(-8.34f, 8.34f); // X-axis spawn range
     public GameObject food1;
@@ -20,6 +28,7 @@ public class shop : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        camsize = cam.GetComponent<Camera>().orthographicSize;
         moneytxt.text = "money: " + money;
         costtxt.text = "cost: " + cost;
         cost2txt.text = "cost: " + cost2;
@@ -42,14 +51,30 @@ public class shop : MonoBehaviour
             
         }
     }
-    public void Tank()
+    public void Tank() 
     {
         if(money >= 4)
-        {
-            money = money - 4;
-            moneytxt.text = "money: " + money;
-            Debug.Log("got tank");
-            cost2txt.text = "cost: " + cost2;
+        {        
+            
+            if(size <= maxsize)
+            {
+                size += 1;
+                money = money - 4;
+                moneytxt.text = "money: " + money;
+                currsize += 0.1f;
+                Tank1.transform.localScale=new Vector3(currsize,currsize,currsize);
+                //cam.GetComponent<Camera>().orthographicSize;
+                camsize += camincrease;
+                cam.GetComponent<Camera>().orthographicSize = camsize;
+                cost2txt.text = "cost: " + cost2;
+
+            }
+            if(size > maxsize)
+            {
+                    tank.SetActive(false);
+            }
+                
+
             
         }
     }
