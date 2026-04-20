@@ -247,8 +247,8 @@ MonoBehaviour:
   hugner: 100
   timer: 0
   interval: 0.2
-  speed: 15
-  lrspeed: 20
+  speed: 21
+  lrspeed: 31
   playerrb: {fileID: 103376386}
 --- !u!50 &103376386
 Rigidbody2D:
