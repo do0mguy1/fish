@@ -4,6 +4,7 @@ using UnityEngine.UIElements;
 
 public class shop : MonoBehaviour
 {
+    public GameObject bubble;
     public GameObject tank;
     public int size = 0;
     public int maxsize = 9;
@@ -63,7 +64,6 @@ public class shop : MonoBehaviour
                 moneytxt.text = "money: " + money;
                 currsize += 0.1f;
                 Tank1.transform.localScale=new Vector3(currsize,currsize,currsize);
-                //cam.GetComponent<Camera>().orthographicSize;
                 camsize += camincrease;
                 cam.GetComponent<Camera>().orthographicSize = camsize;
                 cost2txt.text = "cost: " + cost2;

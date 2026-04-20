@@ -2,14 +2,12 @@ using UnityEngine;
 
 public class bubbles : MonoBehaviour
 {
-    public float Spawninterval = 2.0f;
-    public float Startdelay = 1.0f;
-    public Vector3 bubblepoint = new Vector3(-6.91f, -3.38f, 0.45f);
+    public float Spawninterval = 1.0f;
     public GameObject bubble;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        InvokeRepeating("Spawnbubble", Startdelay, Spawninterval);
+        Invoke("Spawnbubble", Spawninterval);
     }
 
     // Update is called once per frame
@@ -19,6 +17,7 @@ public class bubbles : MonoBehaviour
     }
     void Spawnbubble()
     {
-        Instantiate(bubble, bubblepoint, bubble.transform.rotation);
+        Instantiate(bubble, transform.position, transform.rotation);
+        Invoke("Spawnbubble", Spawninterval);
     }
 }
