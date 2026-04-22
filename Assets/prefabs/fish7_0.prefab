@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 9199128745477413131}
   - component: {fileID: 3323655346271622604}
   - component: {fileID: 4555203913946926975}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fish7_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,6 +178,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 326adbe5fe5334796af3d594cd803967, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::fish
+  havehugner: 1
+  timer2: 0
+  interval2: 12
+  hugner: 100
   timer: 0
   interval: 0.2
   speed: 15

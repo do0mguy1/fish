@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hunger.md",
+                "file": "buy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hunger"
+              "title": "buy"
             }
           }
         ]
@@ -201,11 +201,13 @@
   },
   "active": "39d1e9b247d82aee",
   "lastOpenFiles": [
+    "shop.md",
+    "macanics.md",
+    "growing.md",
+    "hunger.md",
     "food.md",
     "buy.md",
     "tank size.md",
-    "shop.md",
-    "macanics.md",
     "sell.md",
     "money.md",
     "feeding.md",
@@ -213,8 +215,6 @@
     "death.md",
     "value.md",
     "Welcome.md",
-    "hunger.md",
-    "growing.md",
     "foodtypes.md",
     "foodtype.md"
   ]
