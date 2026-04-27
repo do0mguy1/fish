@@ -1,1 +1,1 @@
-[[fish]] grow over time.
+[[fish]] grow over time by getting bigger.

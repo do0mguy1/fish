@@ -1,3 +1,5 @@
-[[buy]] things
+[[buy]] things from the [[shop]].
 
-00
+[[sell]] fish for money.
+
+you start off with money.

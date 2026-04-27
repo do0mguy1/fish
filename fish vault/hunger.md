@@ -1,1 +1,1 @@
-[[fish]] get hungery as they grow if not fed they stop [[growing]] than die.
+[[fish]] get hungry as they grow if not fed they stop [[growing]] than die.
