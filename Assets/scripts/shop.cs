@@ -4,21 +4,12 @@ using UnityEngine.UIElements;
 
 public class shop : MonoBehaviour
 {
-    public GameObject fish1; public GameObject fish2; public GameObject fish3; public GameObject fish4; public GameObject fish5; public GameObject fish6;
-    public GameObject fish7; public GameObject fish8; public GameObject fish9; public GameObject fish10;
-    public GameObject fish11;
-    public GameObject fish12;
-    public GameObject fish13;
-    public GameObject fish14;
-    public GameObject fish15;
-    public GameObject fish16;
-    public GameObject fish17;
-    public GameObject fish18;
-    public GameObject fish19;
-    public GameObject fish20;
-    public GameObject fish21;
-    public GameObject fish22;
-    public GameObject fish23;
+    public GameObject fish1;public GameObject fish2;public GameObject fish3;public GameObject fish4;
+    public GameObject fish5;public GameObject fish6;public GameObject fish7;public GameObject fish8;
+    public GameObject fish9;public GameObject fish10;public GameObject fish11;public GameObject fish12;
+    public GameObject fish13;public GameObject fish14;public GameObject fish15;public GameObject fish16;
+    public GameObject fish17;public GameObject fish18;public GameObject fish19;public GameObject fish20;
+    public GameObject fish21;public GameObject fish22;public GameObject fish23;
 
     public GameObject bubble;
     public GameObject tank;
@@ -46,9 +37,9 @@ public class shop : MonoBehaviour
     {
         camsize = cam.GetComponent<Camera>().orthographicSize;
         moneytxt.text = "money: " + money;
-        costtxt.text = "cost: " + cost;
-        cost2txt.text = "cost: " + cost2;
-        cost3txt.text = "cost: " + cost3;
+        costtxt.text = "Food cost: " + cost;
+        cost2txt.text = "Tank cost: " + cost2;
+        cost3txt.text = "Fish cost: " + cost3;
     }
 
     // Update is called once per frame
@@ -63,7 +54,7 @@ public class shop : MonoBehaviour
             money = money - 2;
             Spawnfood();
             moneytxt.text = "money: " + money;
-            costtxt.text = "cost: " + cost;
+            costtxt.text = "Food cost: " + cost;
             
         }
     }
@@ -81,7 +72,7 @@ public class shop : MonoBehaviour
                 Tank1.transform.localScale=new Vector3(currsize,currsize,currsize);
                 camsize += camincrease;
                 cam.GetComponent<Camera>().orthographicSize = camsize;
-                cost2txt.text = "cost: " + cost2;
+                cost2txt.text = "Tank cost: " + cost2;
 
             }
             if(size > maxsize)
@@ -99,7 +90,7 @@ public class shop : MonoBehaviour
         {
             money = money - 4;
             Debug.Log("got fish");
-            cost3txt.text = "cost: " + cost3;
+            cost3txt.text = "Fish cost: " + cost3;
             moneytxt.text = "money: " + money;
         }
     }

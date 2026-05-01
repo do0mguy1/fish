@@ -3,15 +3,21 @@ using UnityEngine;
 public class fish : MonoBehaviour
 {
     public bool havehugner = true;
-    public float timer2;
-    public float interval2 = 12f;
+
+    public float growspeed;
     public float hugner = 100;
-    private SpriteRenderer render;
-    public float timer;
-    public float interval = 1f;
+    private float fishmovetimer;
+    private float hugnertimer;
+    private float growtimer;
+    public float movetick = 0.2f;
+    public float hugnertick = 12f;
+    public float growrate = 15f;
     public float speed = 15;
     public float lrspeed = 20;
+    public float maxgrowsize = 5.0f;
+
     public Rigidbody2D playerrb;
+    private SpriteRenderer render;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,12 +27,13 @@ public class fish : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timer += Time.deltaTime;
-        timer2 += Time.deltaTime;
-        if (timer >= interval)
+        fishmovetimer += Time.deltaTime;
+        hugnertimer += Time.deltaTime;
+        growtimer += Time.deltaTime;
+        if (fishmovetimer >= movetick)
         {
             int randomNumber = Random.Range(0, 4);
-            timer = 0f;
+            fishmovetimer = 0f;
 
             if (randomNumber == 0)
             {
@@ -56,10 +63,18 @@ public class fish : MonoBehaviour
         }
         if(havehugner == true)
         {
-            if (timer2 >= interval2)
+            if (hugnertimer >= hugnertick)
             {
-                timer2 = 0f;
+                hugnertimer = 0f;
                 hugner = hugner - 5;
+            }
+        }
+        if(growtimer >= growrate)
+        {
+            growtimer = 0f;
+            if(transform.localScale.x < maxgrowsize)
+            {
+                transform.localScale += Vector3.one * growspeed;
             }
         }
     }
@@ -69,6 +84,11 @@ public class fish : MonoBehaviour
         {
             Destroy(collision.gameObject);
             hugner = hugner + 20;
+        }
+         if(collision.gameObject.CompareTag("food2"))
+        {
+            Destroy(collision.gameObject);
+            hugner = hugner + 40;
         }
     }
 }

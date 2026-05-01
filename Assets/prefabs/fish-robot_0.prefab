@@ -179,11 +179,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::fish
   havehugner: 0
-  timer2: 0
-  interval2: 12
+  growspeed: 0.001
   hugner: 100
-  timer: 0
-  interval: 0.2
+  movetick: 0.2
+  hugnertick: 12
+  growrate: 15
   speed: 21
   lrspeed: 31
+  maxgrowsize: 5
   playerrb: {fileID: 8779061082539387474}

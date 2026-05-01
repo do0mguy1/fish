@@ -6,6 +6,7 @@ TagManager:
   tags:
   - point
   - food
+  - food2
   layers:
   - Default
   - TransparentFX

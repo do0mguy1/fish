@@ -1,7 +1,2 @@
-[[fish]] grow over time by getting bigger.
+[[fish]] grow over time by getting bigger until they can't grow any more.
 
-TASKS
-
-- add grownig timeer
-- make function fish get bigger
-- add limit
