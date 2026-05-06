@@ -6,5 +6,5 @@
 
 [[fish]]
 ball
- - add bounce
- - make it go away from corners 
+ - add bounce ,done
+ - make it go away from corners done
