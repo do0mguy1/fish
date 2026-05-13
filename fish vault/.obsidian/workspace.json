@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks.md",
+                "file": "fish.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tasks"
+              "title": "fish"
             }
           }
         ],
@@ -216,12 +216,12 @@
   },
   "active": "5236145eaf9c85bb",
   "lastOpenFiles": [
+    "shop.md",
+    "fish.md",
+    "Tasks.md",
     "macanics list.md",
     "feeding.md",
-    "fish.md",
     "growing.md",
-    "Tasks.md",
-    "shop.md",
     "Welcome.md",
     "value.md",
     "tank size.md",

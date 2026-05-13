@@ -11,6 +11,8 @@ public class shop : MonoBehaviour
     public GameObject fish17;public GameObject fish18;public GameObject fish19;public GameObject fish20;
     public GameObject fish21;public GameObject fish22;public GameObject fish23;
 
+    public bool fishmenuact = false;
+    public GameObject fishmenu;
     public GameObject bubble;
     public GameObject tank;
     public int size = 0;
@@ -40,6 +42,7 @@ public class shop : MonoBehaviour
         costtxt.text = "Food cost: " + cost;
         cost2txt.text = "Tank cost: " + cost2;
         cost3txt.text = "Fish cost: " + cost3;
+        fishmenu.SetActive(fishmenuact);
     }
 
     // Update is called once per frame
@@ -86,12 +89,10 @@ public class shop : MonoBehaviour
     }
     public void Fish()
     {
-        if(money >= 4)
+        if(fishmenu != null)
         {
-            money = money - 4;
-            Debug.Log("got fish");
-            cost3txt.text = "Fish cost: " + cost3;
-            moneytxt.text = "money: " + money;
+            fishmenuact = !fishmenuact;
+            fishmenu.SetActive(fishmenuact);
         }
     }
     public void Sell()
