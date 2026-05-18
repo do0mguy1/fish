@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class fish : MonoBehaviour
 {
+    public GameObject sellFish;
+    public bool cansell = false;
     public bool havehugner = true;
 
     public float growspeed;
@@ -77,6 +79,18 @@ public class fish : MonoBehaviour
                 transform.localScale += Vector3.one * growspeed;
             }
         }
+        if(transform.localScale.x >= maxgrowsize && !cansell)
+        {
+            SpawnSellFish();
+        }
+    }
+    void SpawnSellFish()
+    {
+      cansell = true; 
+      Vector3 fishPos = transform.position + new Vector3(0, 2.0f, 0);
+      GameObject sellFishChild = Instantiate(sellFish, fishPos, Quaternion.identity);
+      sellFishChild.transform.SetParent(this.transform);
+      sellFishChild.transform.localScale = Vector3.one;
     }
     void OnCollisionEnter2D(Collision2D collision)
     {

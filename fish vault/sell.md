@@ -1,1 +1,1 @@
-sell fully grown [[fish]] and get the [[value]] of it.
+Click on a fully grown [[fish]]  to sell and get the [[value]] of it. A fully grown fish has icon so you know it can be sold.
