@@ -10,6 +10,7 @@ ball
  - make it go away from corners
  fish
  - added sell symbol when it can be sold
+ - added 24 fish
 
 
 TO DO

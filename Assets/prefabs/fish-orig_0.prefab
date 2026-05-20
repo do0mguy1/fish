@@ -108,7 +108,7 @@ MonoBehaviour:
   sellFish: {fileID: 4097463241809675920, guid: 3ab38bcea4dd946458d61221756b88aa, type: 3}
   cansell: 0
   havehugner: 1
-  growspeed: 0.001
+  growspeed: 0.5
   hugner: 100
   movetick: 0.2
   hugnertick: 12

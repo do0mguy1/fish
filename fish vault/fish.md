@@ -8,5 +8,5 @@ a menu to pick fish
 the menu is a scroll view and has images of the fish. click on the images to get the fish.
 fish cost different [[money]].
 
-23 different fish!!
+24 different fish!!
 ('  )<
