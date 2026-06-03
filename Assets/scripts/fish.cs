@@ -1,8 +1,13 @@
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
 
 public class fish : MonoBehaviour
 {
+    public int fishvalue;
     public GameObject sellFish;
+    public GameObject sellText;
+    private GameObject selltextChild; 
     public bool cansell = false;
     public bool havehugner = true;
 
@@ -77,6 +82,7 @@ public class fish : MonoBehaviour
             if(transform.localScale.x < maxgrowsize)
             {
                 transform.localScale += Vector3.one * growspeed;
+                fishvalue = fishvalue + 10;
             }
         }
         if(transform.localScale.x >= maxgrowsize && !cansell)
@@ -98,11 +104,40 @@ public class fish : MonoBehaviour
         {
             Destroy(collision.gameObject);
             hugner = hugner + 20;
+            fishvalue = fishvalue + 5;
         }
          if(collision.gameObject.CompareTag("food2"))
         {
             Destroy(collision.gameObject);
             hugner = hugner + 40;
+            fishvalue = fishvalue + 10;
+        }
+    }
+
+    public void OnMouseEnter()
+    {
+        if(selltextChild == null)
+        {
+            Vector3 fishPos = transform.position + new Vector3(0, -2.0f, 0);
+            selltextChild = Instantiate(sellText, fishPos, Quaternion.identity);
+            selltextChild.transform.SetParent(this.transform);
+            //selltextChild.transform.localPosition + new Vector3(0, -2f, 0);
+            //selltextChild.transform.localScale = Vector3.one;
+            TMP_Text text = selltextChild.GetComponentInChildren<TMP_Text>();
+
+            if(text != null)
+            {
+                text.text = fishvalue.ToString();
+            }
+        }
+        
+    }
+    public void OnMouseExit()
+    {
+        if(selltextChild != null)
+        {
+            Destroy(selltextChild);
+            selltextChild = null;
         }
     }
 }

@@ -132,7 +132,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 326adbe5fe5334796af3d594cd803967, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::fish
+  fishvalue: 0
   sellFish: {fileID: 4097463241809675920, guid: 3ab38bcea4dd946458d61221756b88aa, type: 3}
+  sellText: {fileID: 61232213772123142, guid: 88382f073992a464da6a668ad236bef1, type: 3}
   cansell: 0
   havehugner: 1
   growspeed: 0.5

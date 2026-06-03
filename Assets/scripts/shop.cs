@@ -11,6 +11,8 @@ public class shop : MonoBehaviour
     public GameObject fish17;public GameObject fish18;public GameObject fish19;public GameObject fish20;
     public GameObject fish21;public GameObject fish22;public GameObject fish23;public GameObject fish24;
 
+    private fish fishScipt;
+    private int fishValueSell;
     public bool fishmenuact = false;
     public GameObject fishmenu;
     public GameObject bubble;
@@ -33,7 +35,7 @@ public class shop : MonoBehaviour
     public float cost = 2;
     public TMP_Text costtxt;
     public TMP_Text moneytxt;
-    public float money;
+    public int money;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -282,4 +284,5 @@ public class shop : MonoBehaviour
     {
         
     }
+   
 }
