@@ -183,7 +183,7 @@ MonoBehaviour:
   sellText: {fileID: 61232213772123142, guid: 88382f073992a464da6a668ad236bef1, type: 3}
   cansell: 0
   havehugner: 0
-  growspeed: 0
+  growspeed: 0.5
   hugner: 100
   movetick: 0.2
   hugnertick: 12

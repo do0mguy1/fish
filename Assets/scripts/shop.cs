@@ -43,7 +43,7 @@ public class shop : MonoBehaviour
         moneytxt.text = "money: " + money;
         costtxt.text = "Food cost: " + cost;
         cost2txt.text = "Tank cost: " + cost2;
-        cost3txt.text = "Fish cost: " + cost3;
+        cost3txt.text = "fish";
         fishmenu.SetActive(fishmenuact);
     }
 
@@ -60,6 +60,7 @@ public class shop : MonoBehaviour
             Spawnfood();
             moneytxt.text = "money: " + money;
             costtxt.text = "Food cost: " + cost;
+            cost2txt.text = "fish";
             
         }
     }
