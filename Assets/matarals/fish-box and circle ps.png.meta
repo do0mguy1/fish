@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 0dda1dc96c9d6438db9cbf08e9618c51
+guid: 1540f8f2409c141bfa8007930285591c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7103392866045944379
-    second: bad-time_0
+      213: -9109173827143752609
+    second: fish-box and circle ps_0
+  - first:
+      213: -3632075963570161737
+    second: fish-box and circle ps_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +75,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 64
+    maxTextureSize: 32
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -100,12 +103,34 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bad-time_0
+      name: fish-box and circle ps_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 21
-        width: 49
+        x: 0
+        y: 0
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54afcbaaa6b59180800000000000000
+      internalID: -9109173827143752609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish-box and circle ps_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2
+        width: 16
         height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5cd994fd2ddab6d90800000000000000
-      internalID: -7103392866045944379
+      spriteID: 7b77a2a9726489dc0800000000000000
+      internalID: -3632075963570161737
       vertices: []
       indices: 
       edges: []
@@ -125,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bad-time_0: -7103392866045944379
+      fish-box and circle ps_0: -9109173827143752609
+      fish-box and circle ps_1: -3632075963570161737
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

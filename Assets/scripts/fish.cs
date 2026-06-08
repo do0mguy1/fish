@@ -118,11 +118,13 @@ public class fish : MonoBehaviour
     {
         if(selltextChild == null)
         {
-            Vector3 fishPos = transform.position + new Vector3(0, -2.0f, 0);
+            //Vector3 fishPos = transform.position + new Vector3(0, -0.5f, 0);
+            Renderer objectRenderer = GetComponent<Renderer>();
+            float bottomY = objectRenderer.bounds.min.y;
+            float spaceFish = -0.5f; // Adjust this to push it slightly lower than the edge
+            Vector3 fishPos = new Vector3(transform.position.x, bottomY + spaceFish, transform.position.z);
             selltextChild = Instantiate(sellText, fishPos, Quaternion.identity);
             selltextChild.transform.SetParent(this.transform);
-            //selltextChild.transform.localPosition + new Vector3(0, -2f, 0);
-            //selltextChild.transform.localScale = Vector3.one;
             TMP_Text text = selltextChild.GetComponentInChildren<TMP_Text>();
 
             if(text != null)
