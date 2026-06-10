@@ -14,9 +14,11 @@ public class fish : MonoBehaviour
     public float growspeed;
     public float hugner = 100;
     private float fishmovetimer;
+    private float crabmovetimer;
     private float hugnertimer;
     private float growtimer;
     public float movetick = 0.2f;
+    public float movetickcrab = 0.2f;
     public float hugnertick = 12f;
     public float growrate = 15f;
     public float speed = 15;
@@ -35,37 +37,62 @@ public class fish : MonoBehaviour
     void Update()
     {
         fishmovetimer += Time.deltaTime;
+        crabmovetimer += Time.deltaTime;
         hugnertimer += Time.deltaTime;
         growtimer += Time.deltaTime;
-        if (fishmovetimer >= movetick)
+        if(gameObject.CompareTag("fish"))
         {
-            int randomNumber = Random.Range(0, 4);
-            fishmovetimer = 0f;
-
-            if (randomNumber == 0)
+            if (fishmovetimer >= movetick)
             {
-                playerrb.AddRelativeForce(Vector3.up * speed);
-                Debug.Log("w");
+                int randomNumber = Random.Range(0, 4);
+                fishmovetimer = 0f;
+
+                if (randomNumber == 0)
+                {
+                    playerrb.AddRelativeForce(Vector3.up * speed);
+                    Debug.Log("w");
+                }
+
+                if (randomNumber == 1)
+                {
+                    playerrb.AddRelativeForce(Vector3.left * lrspeed);
+                    Debug.Log("a");
+                    render.flipX = true;
+                }
+
+                if (randomNumber == 2)
+                {
+                    playerrb.AddRelativeForce(Vector3.right * lrspeed);
+                    Debug.Log("d");
+                    render.flipX = false;
+                }
+
+                if (randomNumber == 3)
+                {
+                    playerrb.AddRelativeForce(Vector3.down * speed);
+                    Debug.Log("s");
+                }
             }
-
-            if (randomNumber == 1)
+        }
+        if (gameObject.CompareTag("CRAB"))
+        {
+            if (crabmovetimer >= movetickcrab)
             {
-                playerrb.AddRelativeForce(Vector3.left * lrspeed);
-                Debug.Log("a");
-                render.flipX = true;
-            }
+                int randomNumber2 = Random.Range(0, 2);
+                crabmovetimer = 0f;
+                if (randomNumber2 == 0)
+                {
+                    playerrb.AddRelativeForce(Vector3.left * lrspeed);
+                    Debug.Log("crab a");
+                    render.flipX = true;
+                }
 
-            if (randomNumber == 2)
-            {
-                playerrb.AddRelativeForce(Vector3.right * lrspeed);
-                Debug.Log("d");
-                render.flipX = false;
-            }
-
-            if (randomNumber == 3)
-            {
-                playerrb.AddRelativeForce(Vector3.down * speed);
-                Debug.Log("s");
+                if (randomNumber2 == 1)
+                {
+                    playerrb.AddRelativeForce(Vector3.right * lrspeed);
+                    Debug.Log("crab d");
+                    render.flipX = false;
+                }
             }
         }
         if(havehugner == true)
@@ -88,6 +115,10 @@ public class fish : MonoBehaviour
         if(transform.localScale.x >= maxgrowsize && !cansell)
         {
             SpawnSellFish();
+        }
+        else
+        {
+            Debug.Log("bad");
         }
     }
     void SpawnSellFish()

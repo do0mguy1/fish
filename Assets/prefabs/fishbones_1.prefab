@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5412067158127408026}
   m_Layer: 7
   m_Name: fishbones_1
-  m_TagString: Untagged
+  m_TagString: fish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

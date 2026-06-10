@@ -2,6 +2,7 @@
 [[shop]]
 [[fish]]
 [[saving]]
+[[bugs]]
 
 
 

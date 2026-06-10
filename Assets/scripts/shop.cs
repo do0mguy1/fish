@@ -10,6 +10,7 @@ public class shop : MonoBehaviour
     public GameObject fish13;public GameObject fish14;public GameObject fish15;public GameObject fish16;
     public GameObject fish17;public GameObject fish18;public GameObject fish19;public GameObject fish20;
     public GameObject fish21;public GameObject fish22;public GameObject fish23;public GameObject fish24;public GameObject fish25;
+    public GameObject fish26;
 
     private fish fishScipt;
     private int fishValueSell;
@@ -286,7 +287,10 @@ public class shop : MonoBehaviour
     }
     public void Fish26buy()
     {
+        float randomX = Random.Range(spawnRangeX.x, spawnRangeX.y);
+        Vector2 spawnPosition = new Vector2(randomX, spawnY);
         
+        Instantiate(fish26, spawnPosition , fish26.transform.rotation);
     }
    
 }

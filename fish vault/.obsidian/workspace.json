@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks.md",
+                "file": "macanics list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tasks"
+              "title": "macanics list"
             }
           }
         ]
@@ -31,10 +31,14 @@
             "id": "69501703e93124f2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Tasks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tasks"
             }
           }
         ]
@@ -199,17 +203,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "5236145eaf9c85bb",
+  "active": "69501703e93124f2",
   "lastOpenFiles": [
-    "fish.md",
+    "bugs.md",
+    "macanics list.md",
     "Tasks.md",
+    "fish.md",
     "sell.md",
     "shop.md",
     "tank size.md",
     "Untitled.canvas",
     "buy.md",
     "growing.md",
-    "macanics list.md",
     "feeding.md",
     "Welcome.md",
     "value.md",
