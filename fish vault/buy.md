@@ -1,4 +1,4 @@
-[[tank size]]
+[[tank]]
 [[fish]]
 [[food]]
 

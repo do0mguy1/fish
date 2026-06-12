@@ -14,8 +14,11 @@ ball
  - added 25 fish
  - fixed bug where sell text went to far below fish
  crab
- - - make crab move([[bug]])
+ - - make crab move([[bugs]])
 
 TO DO
 
 - get value when [[sell]] fish
+- fish can die from [[hunger]]
+-  expensive [[food]] interaction
+- [[tank]] customisation

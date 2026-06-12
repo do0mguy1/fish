@@ -78,7 +78,7 @@ public class fish : MonoBehaviour
         {
             if (crabmovetimer >= movetickcrab)
             {
-                int randomNumber2 = Random.Range(0, 2);
+                int randomNumber2 = Random.Range(0, 5);
                 crabmovetimer = 0f;
                 if (randomNumber2 == 0)
                 {
@@ -86,8 +86,24 @@ public class fish : MonoBehaviour
                     Debug.Log("crab a");
                     render.flipX = true;
                 }
-
                 if (randomNumber2 == 1)
+                {
+                    playerrb.AddRelativeForce(Vector3.right * lrspeed);
+                    Debug.Log("crab d");
+                    render.flipX = false;
+                }
+                if (randomNumber2 == 2)
+                {
+                    playerrb.AddRelativeForce(Vector3.up * speed);
+                    Debug.Log("crab up");
+                }
+                if (randomNumber2 == 3)
+                {
+                    playerrb.AddRelativeForce(Vector3.left * lrspeed);
+                    Debug.Log("crab a");
+                    render.flipX = true;
+                }
+                if (randomNumber2 == 4)
                 {
                     playerrb.AddRelativeForce(Vector3.right * lrspeed);
                     Debug.Log("crab d");
