@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "making a fish.md",
+                "file": "shop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "making a fish"
+              "title": "shop"
             }
           }
         ]
@@ -185,12 +185,13 @@
   },
   "active": "5236145eaf9c85bb",
   "lastOpenFiles": [
+    "macanics list.md",
+    "fish.md",
+    "making a fish.md",
     "food.md",
     "foodtypes.md",
     "growing.md",
     "hunger.md",
-    "macanics list.md",
-    "making a fish.md",
     "Tasks.md",
     "images/tutorial fish6.png",
     "death.md",
@@ -202,7 +203,6 @@
     "images/fish images.md",
     "images",
     "tank.md",
-    "fish.md",
     "bugs.md",
     "sell.md",
     "shop.md",

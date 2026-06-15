@@ -169,7 +169,7 @@ public class fish : MonoBehaviour
             Renderer objectRenderer = GetComponent<Renderer>();
             float bottomY = objectRenderer.bounds.min.y;
             float spaceFish = -0.5f; // Adjust this to push it slightly lower than the edge
-            Vector3 fishPos = new Vector3(transform.position.x, bottomY + spaceFish, transform.position.z);
+            Vector3 fishPos = new Vector3(transform.position.x, bottomY + spaceFish, (transform.position.z - 2.0f));
             selltextChild = Instantiate(sellText, fishPos, Quaternion.identity);
             selltextChild.transform.SetParent(this.transform);
             TMP_Text text = selltextChild.GetComponentInChildren<TMP_Text>();

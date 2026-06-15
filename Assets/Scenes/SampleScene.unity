@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &698898 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5461725087177194744, guid: 188821108cb7244fd844a2aa09c32446, type: 3}
+  m_PrefabInstance: {fileID: 1726490934417923146}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &20570400
 GameObject:
   m_ObjectHideFlags: 0
@@ -8201,6 +8206,7 @@ Transform:
   - {fileID: 1485019585}
   - {fileID: 787500531}
   - {fileID: 381412968}
+  - {fileID: 698898}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2136701260
@@ -8887,7 +8893,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 2103558880}
     m_Modifications:
     - target: {fileID: 3611038163960195156, guid: 188821108cb7244fd844a2aa09c32446, type: 3}
       propertyPath: m_Size.x
@@ -8923,15 +8929,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5461725087177194744, guid: 188821108cb7244fd844a2aa09c32446, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5461725087177194744, guid: 188821108cb7244fd844a2aa09c32446, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5461725087177194744, guid: 188821108cb7244fd844a2aa09c32446, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5461725087177194744, guid: 188821108cb7244fd844a2aa09c32446, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8948,6 +8954,10 @@ PrefabInstance:
     - target: {fileID: 8562123888238438676, guid: 188821108cb7244fd844a2aa09c32446, type: 3}
       propertyPath: m_Name
       value: fish-tutorial_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8562123888238438676, guid: 188821108cb7244fd844a2aa09c32446, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10731,4 +10741,3 @@ SceneRoots:
   - {fileID: 2103558880}
   - {fileID: 348832801}
   - {fileID: 6230753036271198896}
-  - {fileID: 1726490934417923146}
