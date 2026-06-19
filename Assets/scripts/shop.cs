@@ -19,7 +19,7 @@ public class shop : MonoBehaviour
     public GameObject bubble;
     public GameObject tank;
     public int size = 0;
-    public int maxsize = 9;
+    public int maxsize = 210;
     public float camincrease = 0.2f;
     public float camsize;
     public float currsize = 1f;
