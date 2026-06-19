@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "shop.md",
+                "file": "fish.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "shop"
+              "title": "fish"
             }
           }
         ]
@@ -186,32 +186,32 @@
   "active": "5236145eaf9c85bb",
   "lastOpenFiles": [
     "macanics list.md",
-    "fish.md",
     "making a fish.md",
-    "food.md",
-    "foodtypes.md",
-    "growing.md",
-    "hunger.md",
-    "Tasks.md",
     "images/tutorial fish6.png",
-    "death.md",
     "images/tutorial fish5.png",
+    "images/fish images.md",
     "images/tutorial fish4.png",
     "images/tutorial fish3.png",
     "images/tutorial fish2.png",
     "images/tutorial fish1.png",
-    "images/fish images.md",
-    "images",
-    "tank.md",
-    "bugs.md",
+    "fish.md",
+    "food.md",
+    "foodtypes.md",
+    "growing.md",
+    "hunger.md",
+    "money.md",
     "sell.md",
     "shop.md",
+    "tank.md",
+    "Tasks.md",
+    "value.md",
+    "Welcome.md",
+    "death.md",
+    "images",
+    "bugs.md",
     "Untitled.canvas",
     "buy.md",
     "feeding.md",
-    "Welcome.md",
-    "value.md",
-    "money.md",
     "foodtype.md"
   ]
 }
