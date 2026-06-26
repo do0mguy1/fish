@@ -510,12 +510,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish27buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 26
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -642,12 +642,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish12buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 11
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1045,12 +1045,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish5buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1261,12 +1261,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish15buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 14
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2098,12 +2098,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish17buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 16
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2230,12 +2230,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish26buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 25
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2362,12 +2362,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish19buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 18
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2760,34 +2760,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59a274c507c3146a28a863f9c8fe4ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::shop
-  fish1: {fileID: 5734600209838871732, guid: fcb87896a7ddb4ce1b52757136a6f2e7, type: 3}
-  fish2: {fileID: 9017752242613563374, guid: df6f6bc1a031544bb99dacf2f7d10d82, type: 3}
-  fish3: {fileID: 6311116659845607109, guid: b5dcf299c27ce4fda980720200ab1562, type: 3}
-  fish4: {fileID: 6422281682261827660, guid: 8ebc2b2183fbf403194b944c3acd02e7, type: 3}
-  fish5: {fileID: 497851104521735625, guid: b7b31a268c006442985a28ea5645d2b3, type: 3}
-  fish6: {fileID: 1365875919626260604, guid: 19f076d14dba7418588b6ca9d79668ae, type: 3}
-  fish7: {fileID: 5182604034452195071, guid: 4b1fe42f79fc34501ba4cc05ae5690ea, type: 3}
-  fish8: {fileID: 5823201288157537671, guid: 58d921b0a1fa345b4988d5b386113eec, type: 3}
-  fish9: {fileID: 4800685988788487281, guid: a0f4d85da2ef541a1a982d66ff5b3f51, type: 3}
-  fish10: {fileID: 1191531074504466654, guid: ce5ee447d2d8a4e1eb3672b931340cb0, type: 3}
-  fish11: {fileID: 8756139408705286614, guid: 9d3a1eb2d5ac543c38c9e847ded1cfab, type: 3}
-  fish12: {fileID: 4419857845556206153, guid: 58ded2ac1b58746419e8aaad9d16ee21, type: 3}
-  fish13: {fileID: 8717774088060465081, guid: 21c46e719127f401d9566dba6ee303c3, type: 3}
-  fish14: {fileID: 3381707631782825896, guid: e6f5f314ab6c840ff9bbca3295741c0b, type: 3}
-  fish15: {fileID: 1530820920303634533, guid: fe141e67823cd4920878797e97791c0e, type: 3}
-  fish16: {fileID: 4405458460685508402, guid: 6536b7513da4e470cad62f75433e9f06, type: 3}
-  fish17: {fileID: 6045663949924163958, guid: a154ab748e0a046caa33ee7e2f0743d2, type: 3}
-  fish18: {fileID: 58244777421478434, guid: 32dd2265ab7e147049868114553a6d53, type: 3}
-  fish19: {fileID: 1865321846217714238, guid: 98fa5d0d4245a46e7ab6d88ab2ace3a4, type: 3}
-  fish20: {fileID: 1996987261702963155, guid: 2c251e42d922e4298b1f3a2d3acd250d, type: 3}
-  fish21: {fileID: 3665844871297038950, guid: f8ffde22b66ca453da632cb87fa9871e, type: 3}
-  fish22: {fileID: 5933019153086076452, guid: 948969df578b942bfbbb5946a45a4235, type: 3}
-  fish23: {fileID: 5506494631932575828, guid: 6b5c65c4f635f4bc8974b464fc6eb4cf, type: 3}
-  fish24: {fileID: 6582096003978039770, guid: 104216d8a4f734ffe972d7c68a11cacb, type: 3}
-  fish25: {fileID: 235620226248778369, guid: 69a7864f956fe40ba9c7d140554fc967, type: 3}
-  fish26: {fileID: 3726949817527073368, guid: 459bef0b4c309450c8dda90a0954736a, type: 3}
-  fish27: {fileID: 8562123888238438676, guid: 188821108cb7244fd844a2aa09c32446, type: 3}
-  fish28: {fileID: 5040944098659482967, guid: 0261b607a88214d1391acbcd575881be, type: 3}
+  fishPrefabs:
+  - {fileID: 5734600209838871732, guid: fcb87896a7ddb4ce1b52757136a6f2e7, type: 3}
+  - {fileID: 9017752242613563374, guid: df6f6bc1a031544bb99dacf2f7d10d82, type: 3}
+  - {fileID: 6311116659845607109, guid: b5dcf299c27ce4fda980720200ab1562, type: 3}
+  - {fileID: 6422281682261827660, guid: 8ebc2b2183fbf403194b944c3acd02e7, type: 3}
+  - {fileID: 497851104521735625, guid: b7b31a268c006442985a28ea5645d2b3, type: 3}
+  - {fileID: 1365875919626260604, guid: 19f076d14dba7418588b6ca9d79668ae, type: 3}
+  - {fileID: 5182604034452195071, guid: 4b1fe42f79fc34501ba4cc05ae5690ea, type: 3}
+  - {fileID: 5823201288157537671, guid: 58d921b0a1fa345b4988d5b386113eec, type: 3}
+  - {fileID: 4800685988788487281, guid: a0f4d85da2ef541a1a982d66ff5b3f51, type: 3}
+  - {fileID: 1191531074504466654, guid: ce5ee447d2d8a4e1eb3672b931340cb0, type: 3}
+  - {fileID: 8756139408705286614, guid: 9d3a1eb2d5ac543c38c9e847ded1cfab, type: 3}
+  - {fileID: 4419857845556206153, guid: 58ded2ac1b58746419e8aaad9d16ee21, type: 3}
+  - {fileID: 8717774088060465081, guid: 21c46e719127f401d9566dba6ee303c3, type: 3}
+  - {fileID: 3381707631782825896, guid: e6f5f314ab6c840ff9bbca3295741c0b, type: 3}
+  - {fileID: 1530820920303634533, guid: fe141e67823cd4920878797e97791c0e, type: 3}
+  - {fileID: 4405458460685508402, guid: 6536b7513da4e470cad62f75433e9f06, type: 3}
+  - {fileID: 6045663949924163958, guid: a154ab748e0a046caa33ee7e2f0743d2, type: 3}
+  - {fileID: 58244777421478434, guid: 32dd2265ab7e147049868114553a6d53, type: 3}
+  - {fileID: 1865321846217714238, guid: 98fa5d0d4245a46e7ab6d88ab2ace3a4, type: 3}
+  - {fileID: 1996987261702963155, guid: 2c251e42d922e4298b1f3a2d3acd250d, type: 3}
+  - {fileID: 3665844871297038950, guid: f8ffde22b66ca453da632cb87fa9871e, type: 3}
+  - {fileID: 5933019153086076452, guid: 948969df578b942bfbbb5946a45a4235, type: 3}
+  - {fileID: 5506494631932575828, guid: 6b5c65c4f635f4bc8974b464fc6eb4cf, type: 3}
+  - {fileID: 6582096003978039770, guid: 104216d8a4f734ffe972d7c68a11cacb, type: 3}
+  - {fileID: 235620226248778369, guid: 69a7864f956fe40ba9c7d140554fc967, type: 3}
+  - {fileID: 3726949817527073368, guid: 459bef0b4c309450c8dda90a0954736a, type: 3}
+  - {fileID: 8562123888238438676, guid: 188821108cb7244fd844a2aa09c32446, type: 3}
+  - {fileID: 5040944098659482967, guid: 0261b607a88214d1391acbcd575881be, type: 3}
+  fishcost: 5
   fishmenuact: 0
   fishmenu: {fileID: 917998866}
   bubble: {fileID: 0}
@@ -3404,12 +3406,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish21buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 20
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3536,8 +3538,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish1buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3816,12 +3818,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish4buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4169,12 +4171,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish2buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4571,12 +4573,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish13buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 12
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4744,12 +4746,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish20buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 19
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5211,12 +5213,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish10buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 9
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5343,12 +5345,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish16buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 15
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5485,12 +5487,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish23buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 22
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6070,12 +6072,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish3buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6328,12 +6330,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish28buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 27
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6460,12 +6462,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish25buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 24
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6592,12 +6594,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish8buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 7
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6729,12 +6731,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish22buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 21
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -7059,12 +7061,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish11buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 10
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -7191,12 +7193,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish14buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 13
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -7323,12 +7325,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish6buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -7591,12 +7593,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish9buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 8
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -7728,12 +7730,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish24buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 23
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -7860,12 +7862,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish18buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 17
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -8242,12 +8244,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 571079224}
         m_TargetAssemblyTypeName: shop, Assembly-CSharp
-        m_MethodName: Fish7buy
-        m_Mode: 1
+        m_MethodName: FishBuy
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
