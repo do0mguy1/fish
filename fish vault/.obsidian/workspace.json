@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fish.md",
+                "file": "Tasks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "fish"
+              "title": "Tasks"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "5236145eaf9c85bb",
   "lastOpenFiles": [
+    "fish.md",
     "macanics list.md",
     "making a fish.md",
     "images/tutorial fish6.png",
@@ -194,7 +195,6 @@
     "images/tutorial fish3.png",
     "images/tutorial fish2.png",
     "images/tutorial fish1.png",
-    "fish.md",
     "food.md",
     "foodtypes.md",
     "growing.md",

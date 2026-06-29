@@ -7,8 +7,6 @@ public class shop : MonoBehaviour
     public GameObject[] fishPrefabs;
     public int fishcost;
 
-    private fish fishScipt;
-    private int fishValueSell;
     public bool fishmenuact = false;
     public GameObject fishmenu;
     public GameObject bubble;
@@ -36,7 +34,7 @@ public class shop : MonoBehaviour
     void Start()
     {
         camsize = cam.GetComponent<Camera>().orthographicSize;
-        moneytxt.text = "money: " + money;
+        moneytxt.text = "fishcoins: " + money;
         costtxt.text = "Food cost: " + cost;
         cost2txt.text = "Tank cost: " + cost2;
         cost3txt.text = "fish";
@@ -88,7 +86,11 @@ public class shop : MonoBehaviour
             fishmenu.SetActive(fishmenuact);
         }
     }
-    public void Sell()
+    public void Sell(int fishPrise)
+    {
+        money = money + fishPrise;
+    }
+    public void Sellall(int fishPrise)
     {
         money = money + 20;
     }

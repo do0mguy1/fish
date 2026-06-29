@@ -1,15 +1,19 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using System.Data.SqlTypes;
 
 public class fish : MonoBehaviour
 {
+    public shop shopScript;
     public int fishvalue;
     public GameObject sellFish;
     public GameObject sellText;
     private GameObject selltextChild; 
     public bool cansell = false;
     public bool havehugner = true;
+    public bool selling = false;
+    public bool hovering = false;
 
     public float growspeed;
     public float hugner = 100;
@@ -31,6 +35,7 @@ public class fish : MonoBehaviour
     void Start()
     {
         render = GetComponent<SpriteRenderer>();
+        shopScript = FindFirstObjectByType<shop>().GetComponent<shop>();
     }
 
     // Update is called once per frame
@@ -132,9 +137,17 @@ public class fish : MonoBehaviour
         {
             SpawnSellFish();
         }
-        else
+        if(hovering && Input.GetKeyDown(KeyCode.K))
         {
-            Debug.Log("bad");
+            selling = true;
+            int fishPrise = shopScript.money;
+            fishPrise = fishPrise + fishvalue;
+            shopScript.Sell(fishPrise);
+
+
+            Debug.Log(" it works "); // no it don't
+            selling = false;
+            Destroy(gameObject);
         }
     }
     void SpawnSellFish()
@@ -163,6 +176,7 @@ public class fish : MonoBehaviour
 
     public void OnMouseEnter()
     {
+        hovering = true;
         if(selltextChild == null)
         {
             //Vector3 fishPos = transform.position + new Vector3(0, -0.5f, 0);
@@ -178,11 +192,13 @@ public class fish : MonoBehaviour
             {
                 text.text = fishvalue.ToString();
             }
+            
         }
         
     }
     public void OnMouseExit()
     {
+        hovering = false;
         if(selltextChild != null)
         {
             Destroy(selltextChild);

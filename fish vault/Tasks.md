@@ -19,6 +19,7 @@ ball
 TO DO
 
 - get value when [[sell]] fish
+	- create fuction to send indivigul prefab values
 - fish can die from [[hunger]]
 -  expensive [[food]] interaction
 - [[tank]] customisation
