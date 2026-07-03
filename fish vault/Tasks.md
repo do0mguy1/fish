@@ -5,10 +5,12 @@ DONE
 - add limit
 
 [[fish]]
+game
+- controls menu
 ball
  - add bounce
  - make it go away from corners
- fish
+fish
  - add [[value]]s to fish 
  - added sell symbol when it can be sold
  - added 25 fish
@@ -16,14 +18,15 @@ ball
  - get value when [[sell]] fish
 	- create fuction to send indivigul prefab values
 - fish can die from [[hunger]]
- crab
+crab
  - make crab move([[bugs]])
- food
--  expensive [[food]] interactiontank
+food
+-  expensive [[food]] interaction
+tank
  
 
 TO DO
 
 - [[tank]] customisation(choose what tank decorations are seen)
-- controls menu
+- 
 - 

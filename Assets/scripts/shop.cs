@@ -4,6 +4,7 @@ using UnityEngine.UIElements;
 
 public class shop : MonoBehaviour
 {
+    public bool helpBool = false;
     public bool startm = true;
     public fish fishscript;
     public GameObject[] sceneprefabs;
@@ -42,9 +43,9 @@ public class shop : MonoBehaviour
     void Start()
     {
         camsize = cam.GetComponent<Camera>().orthographicSize;
-        moneytxt.text = "fishcoins: " + money;
-        costtxt.text = "Food cost: " + cost;
-        cost4text.text = "Food cost: " + cost4;
+        moneytxt.text = "$ " + money;
+        costtxt.text = "fish Food: " + cost;
+        cost4text.text = "fishco food: " + cost4;
         cost2txt.text = "Tank cost: " + cost2;
         cost3txt.text = "fish";
         controls.text = " press k when on a fish to sell alteratively you can press the sell all button to sell all of the fish in the tank / use wasd to move the camera   (' )<";
@@ -60,7 +61,7 @@ public class shop : MonoBehaviour
         {
             money = money + 10;
         }
-        moneytxt.text = "money: " + money;
+        moneytxt.text = "$ " + money;
         sceneprefabs = GameObject.FindGameObjectsWithTag("fish");
         totalValues = 0;
         if(startm == true)
@@ -100,7 +101,7 @@ public class shop : MonoBehaviour
                 money = money - 8;
                 Spawnfood2();
                 moneytxt.text = "money: " + money;
-                cost4text.text = "Food cost: " + cost4;
+                cost4text.text = "fishco cost: " + cost4;
             }
         }
     }
@@ -180,7 +181,12 @@ public class shop : MonoBehaviour
     }
     public void Help()
     {
-        help.SetActive(controls);
+        if(help != null)
+        {
+            helpBool = !helpBool;
+            help.SetActive(helpBool);
+        }
+
     }
 }
 
