@@ -17,12 +17,13 @@ ball
 	- create fuction to send indivigul prefab values
 - fish can die from [[hunger]]
  crab
- - - make crab move([[bugs]])
+ - make crab move([[bugs]])
  food
-- 
-tank
+-  expensive [[food]] interactiontank
  
 
 TO DO
--  expensive [[food]] interaction
+
 - [[tank]] customisation(choose what tank decorations are seen)
+- controls menu
+- 

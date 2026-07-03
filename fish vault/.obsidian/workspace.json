@@ -185,9 +185,12 @@
   },
   "active": "5236145eaf9c85bb",
   "lastOpenFiles": [
-    "making a fish.md",
+    "sell.md",
     "Tasks.md",
     "fish.md",
+    "buy.md",
+    "images/fish-moneysell.png",
+    "making a fish.md",
     "macanics list.md",
     "images/tutorial fish6.png",
     "images/tutorial fish5.png",
@@ -201,7 +204,6 @@
     "growing.md",
     "hunger.md",
     "money.md",
-    "sell.md",
     "shop.md",
     "tank.md",
     "value.md",
@@ -210,7 +212,6 @@
     "images",
     "bugs.md",
     "Untitled.canvas",
-    "buy.md",
     "feeding.md",
     "foodtype.md"
   ]

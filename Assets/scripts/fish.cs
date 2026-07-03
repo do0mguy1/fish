@@ -149,7 +149,7 @@ public class fish : MonoBehaviour
             shopScript.Sell(fishvalue);
 
 
-            Debug.Log(" it works "); // no it don't
+            Debug.Log(" it works "); // no it don't / it does now
             selling = false;
             Destroy(gameObject);
         }
