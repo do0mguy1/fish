@@ -7,15 +7,15 @@ export the sprite
 ![[tutorial fish2.png]]
 
 step 3 
-bring the sprite into your materials folder in unity
+import the sprite into your materials folder in unity
 ![[tutorial fish3.png]]
 
 step 4 
-make sure your sprites settings are correct 
+make sure your sprites settings are correct (set filter to point)
 ![[tutorial fish4.png]]
 
 step 5 
-put your sprite in scene and attach the things in the image
+put your sprite in scene and attach the things in the image(fish script, box collider2D, rigidbody2D)(make growspeed 0.5)
 ![[tutorial fish5.png]]
 
 step 6 

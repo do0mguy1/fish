@@ -13,13 +13,16 @@ ball
  - added sell symbol when it can be sold
  - added 25 fish
  - fixed bug where sell text went to far below fish
- crab
- - - make crab move([[bugs]])
-
-TO DO
-
-- get value when [[sell]] fish
+ - get value when [[sell]] fish
 	- create fuction to send indivigul prefab values
 - fish can die from [[hunger]]
+ crab
+ - - make crab move([[bugs]])
+ food
+- 
+tank
+ 
+
+TO DO
 -  expensive [[food]] interaction
-- [[tank]] customisation
+- [[tank]] customisation(choose what tank decorations are seen)

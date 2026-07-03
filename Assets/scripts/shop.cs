@@ -4,6 +4,10 @@ using UnityEngine.UIElements;
 
 public class shop : MonoBehaviour
 {
+    public bool startm = true;
+    public fish fishscript;
+    public GameObject[] sceneprefabs;
+    public int totalValues;
     public GameObject[] fishPrefabs;
     public int fishcost;
 
@@ -29,7 +33,7 @@ public class shop : MonoBehaviour
     public float cost = 2;
     public TMP_Text costtxt;
     public TMP_Text moneytxt;
-    public int money;
+    public int money = 10;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -39,12 +43,34 @@ public class shop : MonoBehaviour
         cost2txt.text = "Tank cost: " + cost2;
         cost3txt.text = "fish";
         fishmenu.SetActive(fishmenuact);
+        fishscript = FindFirstObjectByType<fish>().GetComponent<fish>();
+        money = money + 10;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.E))
+        {
+            money = money + 10;
+        }
         moneytxt.text = "money: " + money;
+        sceneprefabs = GameObject.FindGameObjectsWithTag("fish");
+        totalValues = 0;
+        if(startm == true)
+        {
+            money = 10;
+        }
+
+        foreach (GameObject prefab in sceneprefabs)
+        {
+
+            fish indFish = prefab.GetComponent<fish>();
+            if(indFish != null)
+            {
+                totalValues += indFish.fishvalue;
+            }
+        }
     }
     public void Food()
     {
@@ -92,7 +118,12 @@ public class shop : MonoBehaviour
     }
     public void Sellall(int fishPrise)
     {
-        money = money + 20;
+        money = money + totalValues;
+        foreach (GameObject prefab in sceneprefabs)
+        {
+            Destroy(prefab);
+        }
+
     }
     void Spawnfood()
     {
@@ -103,6 +134,7 @@ public class shop : MonoBehaviour
     }
     public void FishBuy(int index)
     {
+        startm = false;
         if (fishPrefabs == null || index < 0 || index >= fishPrefabs.Length) return;
         if (fishPrefabs[index] == null) return;
  
@@ -116,3 +148,11 @@ public class shop : MonoBehaviour
     }
    
 }
+
+
+
+
+    
+
+    
+

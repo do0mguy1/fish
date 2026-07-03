@@ -123,6 +123,10 @@ public class fish : MonoBehaviour
                 hugnertimer = 0f;
                 hugner = hugner - 5;
             }
+            if(hugner <= -5)
+            {
+                Destroy(gameObject);
+            }
         }
         if(growtimer >= growrate)
         {
@@ -140,9 +144,9 @@ public class fish : MonoBehaviour
         if(hovering && Input.GetKeyDown(KeyCode.K))
         {
             selling = true;
-            int fishPrise = shopScript.money;
-            fishPrise = fishPrise + fishvalue;
-            shopScript.Sell(fishPrise);
+            //int fishPrise = shopScript.money;
+
+            shopScript.Sell(fishvalue);
 
 
             Debug.Log(" it works "); // no it don't
