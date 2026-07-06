@@ -57,7 +57,7 @@ public class shop : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E))
+        if(Input.GetKey(KeyCode.E))
         {
             money = money + 10;
         }
