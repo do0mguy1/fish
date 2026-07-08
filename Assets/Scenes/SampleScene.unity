@@ -4966,6 +4966,7 @@ MonoBehaviour:
   havehugner: 1
   selling: 0
   hovering: 0
+  hegry: 0
   growspeed: 0.5
   hugner: 100
   movetick: 0.2
@@ -8408,6 +8409,7 @@ MonoBehaviour:
   havehugner: 1
   selling: 0
   hovering: 0
+  hegry: 0
   growspeed: 0
   hugner: 100
   movetick: 0.2

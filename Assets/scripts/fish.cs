@@ -14,6 +14,7 @@ public class fish : MonoBehaviour
     public bool havehugner = true;
     public bool selling = false;
     public bool hovering = false;
+    public bool hegry = false;
 
     public float growspeed;
     public float hugner = 100;
@@ -122,6 +123,10 @@ public class fish : MonoBehaviour
             {
                 hugnertimer = 0f;
                 hugner = hugner - 5;
+            }
+            if(hugner <= 0)
+            {
+                hegry = true;
             }
             if(hugner <= -5)
             {

@@ -30,3 +30,7 @@ TO DO
 - [[tank]] customisation(choose what tank decorations are seen)
 - 
 - 
+
+MAYBE
+- custom curser
+- sound and music
