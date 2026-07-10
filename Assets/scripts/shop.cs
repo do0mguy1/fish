@@ -4,6 +4,7 @@ using UnityEngine.UIElements;
 
 public class shop : MonoBehaviour
 {
+    public GameObject[] decpefabs;
     public bool helpBool = false;
     public bool startm = true;
     public fish fishscript;
@@ -17,7 +18,7 @@ public class shop : MonoBehaviour
     public GameObject bubble;
     public GameObject tank;
     public int size = 0;
-    public int maxsize = 470;
+    public int maxsize = 555;
     public float camincrease = 0.2f;
     public float camsize;
     public float currsize = 1f;
@@ -178,6 +179,23 @@ public class shop : MonoBehaviour
             Vector2 spawnPosition = new Vector2(randomX, spawnY);
             Instantiate(fishPrefabs[index], spawnPosition, fishPrefabs[index].transform.rotation);
         }
+    }
+    public void DecBuy(int index)
+    {
+        if(startm == false)
+        {
+            if (decpefabs == null || index < 0 || index >= decpefabs.Length) return;
+            if (decpefabs[index] == null) return;
+ 
+            if (fishcost <= money)
+            {
+                money = money - fishcost;
+                float randomX = Random.Range(spawnRangeX.x, spawnRangeX.y);
+                Vector2 spawnPosition = new Vector2(randomX, spawnY);
+                Instantiate(decpefabs[index], spawnPosition, decpefabs[index].transform.rotation);
+            }
+        }
+        
     }
     public void Help()
     {
