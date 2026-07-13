@@ -146,7 +146,7 @@ public class fish : MonoBehaviour
         {
             SpawnSellFish();
         }
-        if(hovering && Input.GetKeyDown(KeyCode.K))
+        if(hovering && Input.GetKeyDown(KeyCode.E))
         {
             selling = true;
             //int fishPrise = shopScript.money;

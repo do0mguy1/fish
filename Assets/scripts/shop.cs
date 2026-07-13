@@ -5,14 +5,13 @@ using UnityEngine.UIElements;
 public class shop : MonoBehaviour
 {
     public GameObject[] decpefabs;
-    public bool helpBool = false;
     public bool startm = true;
     public fish fishscript;
     public GameObject[] sceneprefabs;
     public int totalValues;
     public GameObject[] fishPrefabs;
     public int fishcost = 30;
-
+    public bool helpBool = false;
     public bool fishmenuact = false;
     public GameObject fishmenu;
     public GameObject bubble;
@@ -49,8 +48,8 @@ public class shop : MonoBehaviour
         cost4text.text = "fishco food: " + cost4;
         cost2txt.text = "Tank cost: " + cost2;
         cost3txt.text = "fish";
-        controls.text = " press k when on a fish to sell alteratively you can press the sell all button to sell all of the fish in the tank / use wasd to move the camera   (' )<";
         fishmenu.SetActive(fishmenuact);
+        help.SetActive(helpBool);
         fishscript = FindFirstObjectByType<fish>().GetComponent<fish>();
         money = money + 10;
     }
@@ -58,7 +57,7 @@ public class shop : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.E))
+        if(Input.GetKey(KeyCode.K))
         {
             money = money + 10;
         }
@@ -139,6 +138,14 @@ public class shop : MonoBehaviour
             fishmenu.SetActive(fishmenuact);
         }
     }
+    public void Help()
+    {
+        if(help != null)
+        {
+            helpBool = !helpBool;
+            help.SetActive(helpBool);
+        }
+    }
     public void Sell(int fishPrise)
     {
         money = money + fishPrise;
@@ -197,15 +204,7 @@ public class shop : MonoBehaviour
         }
         
     }
-    public void Help()
-    {
-        if(help != null)
-        {
-            helpBool = !helpBool;
-            help.SetActive(helpBool);
-        }
-
-    }
+  
 }
 
 

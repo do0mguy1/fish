@@ -7,6 +7,8 @@ DONE
 [[fish]]
 game
 - controls menu
+- help menu script and box
+-  new fonts
 ball
  - add bounce
  - make it go away from corners
@@ -28,9 +30,11 @@ tank
 TO DO
 
 - [[tank]] customisation(choose what tank decorations are seen)
-- 
-- 
+- background customisation
+- custom buttons
 
 MAYBE
 - custom curser
 - sound and music
+- 
+- 

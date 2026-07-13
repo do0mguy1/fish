@@ -223,8 +223,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Button
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
+  m_sharedMaterial: {fileID: 2390400070000625996, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -522,8 +522,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: expensive
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
+  m_sharedMaterial: {fileID: 2390400070000625996, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1260,6 +1260,82 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 246219090}
+  m_CullTransparentMesh: 1
+--- !u!1 &257481971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 257481972}
+  - component: {fileID: 257481974}
+  - component: {fileID: 257481973}
+  m_Layer: 5
+  m_Name: helpImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &257481972
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257481971}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 59}
+  m_LocalScale: {x: 5.8388624, y: 3.2895, z: 3.2895}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 806249069}
+  m_Father: {fileID: 785596382}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -63, y: -249}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &257481973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257481971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -2568981641722744209, guid: 54f944765a9f64d43a5766a2b6ef9d94, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &257481974
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257481971}
   m_CullTransparentMesh: 1
 --- !u!1 &264405536
 GameObject:
@@ -2564,8 +2640,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Button
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
+  m_sharedMaterial: {fileID: 2390400070000625996, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2705,8 +2781,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: sell all
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
+  m_sharedMaterial: {fileID: 2390400070000625996, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2841,8 +2917,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Button food
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
+  m_sharedMaterial: {fileID: 2390400070000625996, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3563,8 +3639,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Button tank
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
+  m_sharedMaterial: {fileID: 2390400070000625996, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3750,7 +3826,6 @@ MonoBehaviour:
   - {fileID: 1275907765413058293, guid: cb69f321b766f45ecad35556b8659823, type: 3}
   - {fileID: 8111465157762533898, guid: cc14fad310fa54e978af6174e399f387, type: 3}
   - {fileID: 8276231778155128033, guid: 209a395b93f874d078cfb82334547e0b, type: 3}
-  helpBool: 1
   startm: 1
   fishscript: {fileID: 0}
   sceneprefabs: []
@@ -3785,6 +3860,7 @@ MonoBehaviour:
   - {fileID: 8562123888238438676, guid: 188821108cb7244fd844a2aa09c32446, type: 3}
   - {fileID: 5040944098659482967, guid: 0261b607a88214d1391acbcd575881be, type: 3}
   fishcost: 30
+  helpBool: 0
   fishmenuact: 0
   fishmenu: {fileID: 917998866}
   bubble: {fileID: 0}
@@ -3810,7 +3886,7 @@ MonoBehaviour:
   costtxt: {fileID: 505628210}
   moneytxt: {fileID: 1774593590}
   controls: {fileID: 806249070}
-  help: {fileID: 785596381}
+  help: {fileID: 257481971}
   money: 0
 --- !u!4 &571079225
 Transform:
@@ -4799,8 +4875,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Button
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
+  m_sharedMaterial: {fileID: 2390400070000625996, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5289,7 +5365,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 806249069}
+  - {fileID: 257481972}
   m_Father: {fileID: 850339186}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &787500531 stripped
@@ -5456,15 +5532,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 806249068}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 14}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -75.391396}
+  m_LocalScale: {x: 0.17126623, y: 0.30399758, z: 0.30399758}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 785596382}
+  m_Father: {fileID: 257481972}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -285.95, y: -59.36386}
+  m_AnchoredPosition: {x: 25.9, y: -17.886875}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &806249070
@@ -5487,10 +5563,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: HELp option
+  m_text: "Sell individual fish:\n   Hover + E\n_______________________\n\nCamera
+    controls:\n  WASD"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
+  m_sharedMaterial: {fileID: 2390400070000625996, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7555,8 +7632,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Button
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
+  m_sharedMaterial: {fileID: 2390400070000625996, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8224,8 +8301,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: button buy fish
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
+  m_sharedMaterial: {fileID: 2390400070000625996, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9876,8 +9953,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Button
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
+  m_sharedMaterial: {fileID: 2390400070000625996, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10541,8 +10618,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Button
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
+  m_sharedMaterial: {fileID: 2390400070000625996, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10893,8 +10970,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: money.txt
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
+  m_sharedMaterial: {fileID: 2390400070000625996, guid: 2698835fb2b59424ea9b16df468fe9e0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12954,6 +13031,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fish-fishscuba_0
       objectReference: {fileID: 0}
+    - target: {fileID: 8276231778155128033, guid: 209a395b93f874d078cfb82334547e0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13165,6 +13246,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 407628484}
     m_Modifications:
+    - target: {fileID: -4872773031327962704, guid: e514d0d6074b4462ebd37ae52ae47abf, type: 3}
+      propertyPath: m_Target.x
+      value: -6.6800003
+      objectReference: {fileID: 0}
+    - target: {fileID: -4872773031327962704, guid: e514d0d6074b4462ebd37ae52ae47abf, type: 3}
+      propertyPath: m_Target.y
+      value: -3.7300005
+      objectReference: {fileID: 0}
     - target: {fileID: 3223046903603263395, guid: e514d0d6074b4462ebd37ae52ae47abf, type: 3}
       propertyPath: m_Name
       value: fish-bubble thing_0
@@ -13225,6 +13314,10 @@ PrefabInstance:
     - target: {fileID: 1275907765413058293, guid: cb69f321b766f45ecad35556b8659823, type: 3}
       propertyPath: m_Name
       value: fish-seaweed_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1275907765413058293, guid: cb69f321b766f45ecad35556b8659823, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9180719844280461819, guid: cb69f321b766f45ecad35556b8659823, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13521,6 +13614,10 @@ PrefabInstance:
     - target: {fileID: 8287759695697904310, guid: 5c5ee7df318b640078c9b019aef2dee2, type: 3}
       propertyPath: m_Name
       value: dinothing_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8287759695697904310, guid: 5c5ee7df318b640078c9b019aef2dee2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8651208987459139925, guid: 5c5ee7df318b640078c9b019aef2dee2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14605,6 +14702,10 @@ PrefabInstance:
     - target: {fileID: 8164582743757165824, guid: 14880a6bac7b74c6ab33ba51c8abe21c, type: 3}
       propertyPath: m_Name
       value: fish-ship_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164582743757165824, guid: 14880a6bac7b74c6ab33ba51c8abe21c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

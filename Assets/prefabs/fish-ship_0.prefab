@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -7837782016165213591}
   - component: {fileID: -1564962059236903131}
   - component: {fileID: -5350002866984535643}
+  - component: {fileID: 7313017882422284522}
   m_Layer: 6
   m_Name: fish-ship_0
   m_TagString: Untagged
@@ -186,3 +187,16 @@ TargetJoint2D:
   m_MaxForce: 10000
   m_DampingRatio: 1
   m_Frequency: 5
+--- !u!114 &7313017882422284522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8164582743757165824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01f34a0a103ba46749368c61d4478e81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::dragdrop
+  ispickedup: 0
