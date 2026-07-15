@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2756359005394439788}
   - component: {fileID: -5555858410860113570}
   - component: {fileID: 2660814431029268848}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: fish-fishfood_0
   m_TagString: food
   m_Icon: {fileID: 0}
