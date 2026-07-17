@@ -9,6 +9,7 @@ game
 - controls menu
 - help menu script and box
 -  new fonts
+- custom cursor
 ball
  - add bounce
  - make it go away from corners
@@ -34,7 +35,7 @@ TO DO
 - custom buttons
 
 MAYBE
-- custom curser
+- 
 - sound and music
 - 
 - 

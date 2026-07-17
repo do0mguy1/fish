@@ -13,6 +13,7 @@ public class shop : MonoBehaviour
     public int fishcost = 30;
     public bool helpBool = false;
     public bool fishmenuact = false;
+    public bool foodmenuact = false;
     public GameObject fishmenu;
     public GameObject bubble;
     public GameObject tank;
@@ -38,6 +39,7 @@ public class shop : MonoBehaviour
     public TMP_Text moneytxt;
     public TMP_Text controls;
     public GameObject help;
+    public GameObject fooodmenu;
     public int money = 10;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -49,6 +51,7 @@ public class shop : MonoBehaviour
         cost2txt.text = "Tank cost: " + cost2;
         cost3txt.text = "fish";
         fishmenu.SetActive(fishmenuact);
+        fooodmenu.SetActive(foodmenuact);
         help.SetActive(helpBool);
         fishscript = FindFirstObjectByType<fish>().GetComponent<fish>();
         money = money + 10;
@@ -144,6 +147,14 @@ public class shop : MonoBehaviour
         {
             helpBool = !helpBool;
             help.SetActive(helpBool);
+        }
+    }
+    public void Foodmenu()
+    {
+        if(fooodmenu != null)
+        {
+            fishmenuact = !fishmenuact;
+            fooodmenu.SetActive(fishmenuact);
         }
     }
     public void Sell(int fishPrise)

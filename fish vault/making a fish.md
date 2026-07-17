@@ -11,7 +11,7 @@ import the sprite into your materials folder in unity
 ![[tutorial fish3.png]]
 
 step 4 
-make sure your sprites settings are correct (set filter to point)
+make sure your sprites settings are correct (set filter mode to point)
 ![[tutorial fish4.png]]
 
 step 5 

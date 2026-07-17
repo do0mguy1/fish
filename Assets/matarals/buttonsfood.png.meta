@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6b3bd0fc09dee4ad2acd7f0cec2b2248
+guid: 9d5877ae6dc274357965b8b903d0e88f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2138777711164333522
-    second: tropical_background_0
+      213: -2147367561705409520
+    second: buttonsfood_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tropical_background_0
+      name: buttonsfood_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 240
-        height: 160
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2dd197f1ff67ead10800000000000000
-      internalID: 2138777711164333522
+      spriteID: 0143a5274940332e0800000000000000
+      internalID: -2147367561705409520
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tropical_background_0: 2138777711164333522
+      buttonsfood_0: -2147367561705409520
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

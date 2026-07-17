@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 8050645968088470486}
   - component: {fileID: 834953093836683148}
   - component: {fileID: 3648682512407776457}
+  - component: {fileID: 2142460660704024205}
+  - component: {fileID: 6617378047394933029}
   m_Layer: 7
   m_Name: fish-fishfood2_0
   m_TagString: food2
@@ -165,3 +167,36 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!257 &2142460660704024205
+TargetJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4905175208255571804}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 1
+  m_ConnectedRigidBody: {fileID: 0}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_BreakAction: 3
+  m_Anchor: {x: 0, y: 0}
+  m_Target: {x: 0.99542856, y: -2.3869596}
+  m_AutoConfigureTarget: 1
+  m_MaxForce: 10000
+  m_DampingRatio: 1
+  m_Frequency: 5
+--- !u!114 &6617378047394933029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4905175208255571804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01f34a0a103ba46749368c61d4478e81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::dragdrop
+  ispickedup: 0
